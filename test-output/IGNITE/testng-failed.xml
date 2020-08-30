@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IGNITE]">
+  <test thread-count="5" name="IGNITE Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.ignite.test.TestClasses.TC_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="faceBookClick"/>
+        </methods>
+      </class> <!-- com.ignite.test.TestClasses.TC_002 -->
+    </classes>
+  </test> <!-- IGNITE Test(failed) -->
+</suite> <!-- Failed suite [IGNITE] -->
